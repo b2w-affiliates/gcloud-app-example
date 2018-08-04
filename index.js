@@ -22,7 +22,7 @@ app.post("/api/v1/events", (req, res) => {
 
 
 app.get("/api/v1/events", (req, res) => {
-
+  res.set("x-api-version", 2)
   res.json(events)
 })
 
