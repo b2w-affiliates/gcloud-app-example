@@ -23,7 +23,7 @@ app.post("/api/v1/events", (req, res) => {
 
 app.get("/api/v1/events", (req, res) => {
 
-  events.push(events)
+  res.json(events)
 })
 
 app.listen(8080, () => {
