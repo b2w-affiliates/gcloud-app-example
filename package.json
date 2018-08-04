@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gcloud app deploy"
+    "deploy": "gcloud app deploy",
     "start": "node index.js",
     "test": "mocha"
   },
